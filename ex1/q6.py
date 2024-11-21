@@ -1,0 +1,20 @@
+fruits = ["apple", "banana", "mango", "orange"]
+print("Accessing elements using indexing")
+for i in range(len(fruits)):
+    print(fruits[i])
+print("\nModifying elements in the list")
+fruits[2] = "pineapple"
+print(fruits)
+print("\nAdding elements to the list")
+fruits.append("kiwi")
+print(fruits)
+print("\nRemoving elements from the list")
+fruits.remove("banana")
+print(fruits)
+print(f"\nLength of the list is {len(fruits)}")
+print("\nList in ascending order:")
+fruits.sort()
+print(fruits)
+print("\nList in descending order:")
+fruits.sort(reverse=True)
+print(fruits)
